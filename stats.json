@@ -1,8 +1,8 @@
 {
   "hash": "6d3dae25e43ad54f7954",
   "version": "5.96.1",
-  "time": 6574,
-  "builtAt": 1741156190390,
+  "time": 5792,
+  "builtAt": 1741156414671,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer (Copy)/dist",
   "assetsByChunkName": {
@@ -181,9 +181,9 @@
       "type": "asset",
       "name": "main-c9c31c89.35f215261d1b60e26473.js.gz",
       "size": 11769,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
@@ -423,26 +423,6 @@
     },
     {
       "type": "asset",
-      "name": "workbox-27b4add1.js.gz",
-      "size": 5103,
-      "emitted": false,
-      "comparedForEmit": true,
-      "cached": false,
-      "info": {
-        "compressed": true,
-        "size": 5103
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "371.e8999a3cf78745214633.js",
       "size": 4952,
       "emitted": false,
@@ -614,26 +594,6 @@
     },
     {
       "type": "asset",
-      "name": "service-worker.js",
-      "size": 2952,
-      "emitted": true,
-      "comparedForEmit": true,
-      "cached": false,
-      "info": {
-        "minimized": true,
-        "size": 2952
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "409.457fabd5769d6b3e96cf.js.gz",
       "size": 2680,
       "emitted": false,
@@ -678,9 +638,9 @@
       "type": "asset",
       "name": "653.4d0fd3dc4b19ada6d886.js",
       "size": 2140,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "4d0fd3dc4b19ada6d886",
@@ -795,8 +755,8 @@
       "type": "asset",
       "name": "index.html",
       "size": 995,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 995
@@ -886,9 +846,9 @@
       "type": "asset",
       "name": "14.37180ca2f05de902b9c3.js",
       "size": 81,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "37180ca2f05de902b9c3",
@@ -9215,8 +9175,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/react-i18next/dist/es/TransWithoutContext.js",
-          "issuerName": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
+          "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/react-i18next/dist/es/useTranslation.js",
+          "issuerName": "./node_modules/react-i18next/dist/es/useTranslation.js",
           "issuerPath": [
             {
               "identifier": "/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer (Copy)/src/index.js",
@@ -9244,16 +9204,16 @@
               "id": null
             },
             {
-              "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/react-i18next/dist/es/TransWithoutContext.js",
-              "name": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
-              "id": null
+              "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/react-i18next/dist/es/useTranslation.js",
+              "name": "./node_modules/react-i18next/dist/es/useTranslation.js",
+              "id": 8437
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 9454,
-          "issuerId": null,
+          "issuerId": 8437,
           "chunks": [
             679
           ],
@@ -61154,8 +61114,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/react-i18next/dist/es/TransWithoutContext.js",
-      "issuerName": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
+      "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/react-i18next/dist/es/useTranslation.js",
+      "issuerName": "./node_modules/react-i18next/dist/es/useTranslation.js",
       "issuerPath": [
         {
           "identifier": "/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer (Copy)/src/index.js",
@@ -61183,16 +61143,16 @@
           "id": null
         },
         {
-          "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/react-i18next/dist/es/TransWithoutContext.js",
-          "name": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
-          "id": null
+          "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer (Copy)/node_modules/react-i18next/dist/es/useTranslation.js",
+          "name": "./node_modules/react-i18next/dist/es/useTranslation.js",
+          "id": 8437
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 9454,
-      "issuerId": null,
+      "issuerId": 8437,
       "chunks": [
         679
       ],
@@ -63326,8 +63286,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "50391b895f396b29e634",
       "version": "5.96.1",
-      "time": 347,
-      "builtAt": 1741156184208,
+      "time": 312,
+      "builtAt": 1741156409217,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer (Copy)/dist",
       "assetsByChunkName": {},
