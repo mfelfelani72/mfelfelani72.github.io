@@ -1,60 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Camera Test</title>
-    <style>
-      body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f3f4f6;
-      }
-      .video-container {
-        width: 384px;
-        height: 384px;
-        background-color: black;
-        border-radius: 12px;
-        overflow: hidden;
-      }
-      video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="video-container">
-      <video id="video" autoplay></video>
-    </div>
-
-    <script>
-      const video = document.getElementById("video");
-
-      const enableCamera = async () => {
-        try {
-          const stream = await navigator.mediaDevices.getUserMedia({
-            video: true,
-          });
-          video.srcObject = stream;
-        } catch (err) {
-          console.error("Error accessing the camera", err);
-          alert("Error accessing the camera");
-        }
-      };
-
-      enableCamera();
-
-      // Cleanup when the page is unloaded
-      window.addEventListener("beforeunload", () => {
-        if (video.srcObject) {
-          video.srcObject.getTracks().forEach((track) => track.stop());
-        }
-      });
-    </script>
-  </body>
-</html>
+<!doctype html><html id="root-html" dir="ltr" lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>M.felfelani</title><link defer="defer" rel="manifest" href="/85844e0ca7f47950c7a0.json"><meta name="theme-color" content="#ffffff"><link rel="icon" href="/icon-512x512.png"><script defer="defer" src="/322.9154da92254205208005.js"></script><script defer="defer" src="/635.11d159bbe0ecb0a77125.js"></script><script defer="defer" src="/551.cf945d8194229b664096.js"></script><script defer="defer" src="/679.ae620a579d497c44598d.js"></script><script defer="defer" src="/976.36457eec925421926c0d.js"></script><script defer="defer" src="/767.a1b71a677ae218fc665e.js"></script><script defer="defer" src="/588.3bbce290db10a8601759.js"></script><script defer="defer" src="/main-5d3f7ed2.dffab15e02f2a7faaa41.js"></script><script defer="defer" src="/main-c9c31c89.dc5e2b5ec45e9b4887bb.js"></script></head><body><div id="root"></div><script defer="defer">
+            if ('serviceWorker' in navigator) {
+              window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js').then(registration => {
+              }).catch(registrationError => {console.log('SW registration failed: ', registrationError);});
+              });
+            }
+          </script></body></html>
